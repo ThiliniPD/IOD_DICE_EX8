@@ -1,0 +1,21 @@
+.label {
+    font-size: 100px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: cornflowerblue;
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-top: 0px;
+  }
+
+  .heading1 {
+    font-size: 50px;
+    background-color: cornflowerblue;
+  }
+
+  .btn1 {
+    width: 100%;
+    text-align: center;
+  }

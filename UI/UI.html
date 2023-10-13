@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IOC_Ecercise8_Dice Generator</title>
+    <link href="diceCss.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <!--h1 id="header" style="color: rgb(38, 10, 114)">Roll your dice</h1-->
+    </header>
+
+    <table>
+      <thead>
+        <tr>
+          <th class="heading1" colspan="2">Roll your dice</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="vertical-align: top">
+          <td>
+            <p>Select your dice from the drop box.</p>
+            <p>Then, click the "Roll the dice" button.</p>
+            <img
+              src="https://media.tenor.com/iBb9CXPm3icAAAAj/dice-roll-dice.gif"
+              height="200"
+              alt="A rolling dice"
+            />
+          </td>
+          <td>
+            <form>
+              <br />
+              <label>Number of faces of your dice</label>
+              <select id="NumberOfFaces">
+                <option value="D6">D6</option>
+                <option value="D8">D8</option>
+                <option value="D10">D10</option>
+              </select>
+            </form>
+            <br />
+            <br />
+            <div class="btn1">
+              <button type="button" onclick="rollTheDice()">
+                Roll the dice
+              </button>
+            </div>
+
+            <br />
+            <label class="label" id="outputDisplay">?</label>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="..\backend\backend.js"></script>
+  </body>
+</html>
